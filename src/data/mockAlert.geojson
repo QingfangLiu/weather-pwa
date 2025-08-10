@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-001",
+        "event": "Severe Thunderstorm Warning",
+        "severity": "severe",
+        "effective": "2025-08-10T01:30:00Z",
+        "expires": "2025-08-10T02:00:00Z",
+        "instructions": "Stay indoors away from windows."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-76.75, 39.35],
+            [-76.55, 39.35],
+            [-76.55, 39.25],
+            [-76.75, 39.25],
+            [-76.75, 39.35]
+          ]
+        ]
+      }
+    }
+  ]
+}
